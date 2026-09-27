@@ -1,1519 +1,1120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Soft Tech | Technology & Digital Solutions</title>
-
-    <meta name="description" content="Soft Tech provides professional website development, web applications, e-commerce, SEO, digital marketing, AI automation, hosting support and technology consulting.">
-
-    <meta name="keywords" content="Soft Tech, website development, web development, software development, e-commerce, SEO, digital marketing, AI automation, web applications, hosting, technology solutions">
-
-    <meta name="author" content="Soft Tech">
-
-    <meta property="og:title" content="Soft Tech | Technology & Digital Solutions">
-    <meta property="og:description" content="Professional technology and digital solutions for businesses, organisations and individuals.">
-    <meta property="og:type" content="website">
-
-    <meta name="theme-color" content="#071525">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- ================= HEADER ================= -->
-
-<header class="site-header">
-
-    <div class="container nav">
-
-        <a href="#home" class="logo">
-            <span>Soft</span> Tech
-        </a>
-
-        <button
-            class="menu-toggle"
-            id="menuToggle"
-            type="button"
-            aria-label="Open navigation"
-            aria-expanded="false"
-        >
-            ☰
-        </button>
-
-        <nav id="navMenu">
-
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#process">Process</a>
-            <a href="#faq">FAQs</a>
-
-            <a href="#contact" class="nav-cta">
-                Enquire Now
-            </a>
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-<main>
-
-<!-- ================= HERO ================= -->
-
-<section id="home" class="hero">
-
-    <div class="container hero-grid">
-
-        <div class="hero-content">
-
-            <span class="eyebrow">
-                TECHNOLOGY • DIGITAL SOLUTIONS • INNOVATION
-            </span>
-
-            <h1>
-                Technology that
-                <br>
-                <span>moves your business forward.</span>
-            </h1>
-
-            <p class="hero-copy">
-                Soft Tech provides practical technology and digital solutions
-                designed to help businesses, organisations and individuals
-                build, improve and manage their digital presence.
-            </p>
-
-            <div class="hero-actions">
-
-                <a href="#contact" class="btn primary">
-                    Start an Enquiry
-                    <span>→</span>
-                </a>
-
-                <a
-                    href="https://wa.me/254758943430"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn secondary"
-                >
-                    WhatsApp Us
-                </a>
-
-            </div>
-
-            <div class="trust-row">
-
-                <div>
-                    <strong>✓</strong>
-                    Professional solutions
-                </div>
-
-                <div>
-                    <strong>✓</strong>
-                    Business-focused technology
-                </div>
-
-                <div>
-                    <strong>✓</strong>
-                    Ongoing support
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-image">
-
-            <img
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
-                alt="Professionals working with digital technology"
-            >
-
-            <div class="image-overlay">
-
-                <div class="online-badge">
-                    ● DIGITAL SOLUTIONS
-                </div>
-
-                <div class="image-caption">
-
-                    <h3>Build. Improve. Grow.</h3>
-
-                    <p>
-                        Technology designed around your goals and requirements.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= STATS ================= -->
-
-<section class="stats">
-
-    <div class="container stats-grid">
-
-        <div class="stat">
-            <strong>Web</strong>
-            <span>Development</span>
-        </div>
-
-        <div class="stat">
-            <strong>Digital</strong>
-            <span>Solutions</span>
-        </div>
-
-        <div class="stat">
-            <strong>AI</strong>
-            <span>Automation</span>
-        </div>
-
-        <div class="stat">
-            <strong>24/7</strong>
-            <span>Digital Presence</span>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="section" id="about">
-
-    <div class="container two-column">
-
-        <div class="content-panel">
-
-            <div class="eyebrow">
-                <span></span>
-                ABOUT SOFT TECH
-            </div>
-
-            <h2>
-                Practical technology for a changing digital world.
-            </h2>
-
-            <p>
-                Soft Tech is a technology and digital solutions provider
-                focused on helping businesses, organisations and individuals
-                use technology more effectively.
-            </p>
-
-            <p>
-                We work across website development, web applications,
-                e-commerce, digital marketing, SEO, AI and automation,
-                maintenance and technology consulting.
-            </p>
-
-            <p>
-                Our approach is simple: understand the requirement,
-                develop a suitable solution and provide support beyond
-                the initial delivery where required.
-            </p>
-
-        </div>
-
-
-        <div class="about-box">
-
-            <div class="about-card">
-
-                <span class="card-number">01</span>
-
-                <h3>Understand</h3>
-
-                <p>
-                    We begin by understanding your objectives, audience,
-                    challenges and technical requirements.
-                </p>
-
-            </div>
-
-
-            <div class="about-card">
-
-                <span class="card-number">02</span>
-
-                <h3>Build</h3>
-
-                <p>
-                    We develop practical digital solutions around the
-                    requirements of the project.
-                </p>
-
-            </div>
-
-
-            <div class="about-card">
-
-                <span class="card-number">03</span>
-
-                <h3>Support</h3>
-
-                <p>
-                    We can continue to assist with improvements,
-                    maintenance, hosting and technical support.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= SERVICES ================= -->
-
-<section class="section services-section" id="services">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                <span></span>
-                OUR SERVICES
-            </div>
-
-            <h2>
-                Digital solutions built around your needs.
-            </h2>
-
-            <p>
-                From establishing your online presence to improving
-                existing systems, Soft Tech provides a range of
-                technology-focused services.
-            </p>
-
-        </div>
-
-
-        <div class="services-grid">
-
-
-            <article class="service-card">
-
-                <div class="service-icon">01</div>
-
-                <h3>Website Development</h3>
-
-                <p>
-                    Professional, responsive websites for businesses,
-                    organisations, personal brands and projects.
-                </p>
-
-                <a href="#contact">
-                    Discuss a website →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">02</div>
-
-                <h3>Web Applications</h3>
-
-                <p>
-                    Custom web-based platforms and applications designed
-                    around specific workflows and business requirements.
-                </p>
-
-                <a href="#contact">
-                    Discuss your system →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">03</div>
-
-                <h3>E-Commerce</h3>
-
-                <p>
-                    Online stores and digital commerce solutions that help
-                    businesses present products and manage online sales.
-                </p>
-
-                <a href="#contact">
-                    Discuss e-commerce →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">04</div>
-
-                <h3>SEO & Digital Marketing</h3>
-
-                <p>
-                    Search optimisation, content strategy and digital
-                    marketing support designed to improve online visibility.
-                </p>
-
-                <a href="#contact">
-                    Improve visibility →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">05</div>
-
-                <h3>AI & Automation</h3>
-
-                <p>
-                    Practical applications of artificial intelligence and
-                    automation to streamline selected business processes.
-                </p>
-
-                <a href="#contact">
-                    Explore automation →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">06</div>
-
-                <h3>Hosting & Maintenance</h3>
-
-                <p>
-                    Website deployment, hosting assistance, updates,
-                    maintenance and troubleshooting support.
-                </p>
-
-                <a href="#contact">
-                    Request support →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">07</div>
-
-                <h3>Branding & Design</h3>
-
-                <p>
-                    Digital brand assets and visual solutions that help
-                    businesses establish a consistent online identity.
-                </p>
-
-                <a href="#contact">
-                    Discuss design →
-                </a>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <div class="service-icon">08</div>
-
-                <h3>Technology Consulting</h3>
-
-                <p>
-                    Guidance on technology choices, digital platforms,
-                    website improvements, integrations and online operations.
-                </p>
-
-                <a href="#contact">
-                    Discuss your needs →
-                </a>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= WHY SOFT TECH ================= -->
-
-<section class="section light-section">
-
-    <div class="container two-column">
-
-        <div class="feature-panel">
-
-            <div class="feature-line">
-                <span>01</span>
-                <div>
-                    <h3>Built around the requirement</h3>
-                    <p>
-                        Solutions are developed according to the purpose,
-                        audience and functionality required.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="feature-line">
-                <span>02</span>
-                <div>
-                    <h3>Responsive by design</h3>
-                    <p>
-                        Websites are designed to work across desktop,
-                        tablet and mobile devices.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="feature-line">
-                <span>03</span>
-                <div>
-                    <h3>Focused on usability</h3>
-                    <p>
-                        Clear navigation and practical functionality remain
-                        central to the development process.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="feature-line">
-                <span>04</span>
-                <div>
-                    <h3>Support when required</h3>
-                    <p>
-                        Development can be followed by maintenance,
-                        updates and technical assistance.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="content-panel">
-
-            <div class="eyebrow">
-                <span></span>
-                WHY SOFT TECH
-            </div>
-
-            <h2>
-                Technology should solve problems, not create them.
-            </h2>
-
-            <p>
-                A digital solution should be understandable, usable and
-                aligned with the reason it was created.
-            </p>
-
-            <p>
-                Soft Tech focuses on creating solutions that provide
-                practical value while leaving room for future improvements
-                and growth.
-            </p>
-
-            <a href="#contact" class="text-link">
-                Talk to Soft Tech →
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PROCESS ================= -->
-
-<section class="section" id="process">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                <span></span>
-                HOW WE WORK
-            </div>
-
-            <h2>
-                A straightforward development process.
-            </h2>
-
-        </div>
-
-
-        <div class="process-grid">
-
-            <div class="process-card">
-
-                <span>01</span>
-
-                <h3>Enquiry</h3>
-
-                <p>
-                    Tell us about your project, business or technical
-                    requirement.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span>02</span>
-
-                <h3>Discussion</h3>
-
-                <p>
-                    We discuss your requirements, functionality,
-                    objectives and expected deliverables.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span>03</span>
-
-                <h3>Development</h3>
-
-                <p>
-                    The agreed solution is designed, developed and tested.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span>04</span>
-
-                <h3>Launch & Support</h3>
-
-                <p>
-                    The completed solution is deployed and support can
-                    continue where required.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FAQ ================= -->
-
-<section class="section faq-section" id="faq">
-
-    <div class="container faq-container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                <span></span>
-                FREQUENTLY ASKED QUESTIONS
-            </div>
-
-            <h2>
-                Questions about Soft Tech?
-            </h2>
-
-            <p>
-                Click any question or the plus icon to view the answer.
-            </p>
-
-        </div>
-
-
-        <div class="faq-list">
-
-
-            <!-- FAQ 1 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        What does Soft Tech do?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Soft Tech provides technology and digital solutions
-                        for businesses, organisations and individuals.
-                        Services include website development, web
-                        applications, e-commerce, SEO, digital marketing,
-                        AI and automation, maintenance, hosting support,
-                        branding and technology consulting.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 2 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        Can you build a website from scratch?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Soft Tech can design and develop a website
-                        from scratch based on your requirements. This can
-                        include the website structure, responsive design,
-                        content sections, contact forms, deployment and
-                        ongoing maintenance where required.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 3 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        Can you build custom software?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Soft Tech can develop custom web-based
-                        software and digital systems around specific
-                        organisational or business requirements. Examples
-                        may include management systems, booking platforms,
-                        client portals, workflow tools and online platforms.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 4 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        Do you work with small businesses?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Soft Tech works with small and growing
-                        businesses as well as organisations and individuals.
-                        Solutions can be developed according to the current
-                        needs of the client while allowing room for future
-                        improvements.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 5 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        Can you improve an existing website?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Existing websites can be reviewed and improved
-                        in areas such as design, mobile responsiveness,
-                        content structure, functionality, performance,
-                        SEO, deployment, migration and maintenance.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 6 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    type="button"
-                    aria-expanded="false"
-                >
-
-                    <span>
-                        How do I start a project?
-                    </span>
-
-                    <span class="faq-icon" aria-hidden="true">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Start by completing the enquiry form below and
-                        providing details about your project. Your enquiry
-                        will be sent directly to our email. We can then
-                        discuss your requirements, scope, timeline and
-                        quotation before development begins.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section class="section contact-section" id="contact">
-
-    <div class="container contact-grid">
-
-        <div class="contact-intro">
-
-            <div class="eyebrow">
-                <span></span>
-                GET IN TOUCH
-            </div>
-
-            <h2>
-                Have a project in mind?
-            </h2>
-
-            <p>
-                Tell us what you need and provide as much information as
-                possible. We will review your enquiry and respond with the
-                next steps.
-            </p>
-
-
-            <div class="contact-details">
-
-                <div class="contact-detail">
-
-                    <span>EMAIL</span>
-
-                    <a href="mailto:owinojerim269@gmail.com">
-                        owinojerim269@gmail.com
-                    </a>
-
-                </div>
-
-
-                <div class="contact-detail">
-
-                    <span>WHATSAPP</span>
-
-                    <a
-                        href="https://wa.me/254758943430"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        +254 758 943 430
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="contact-form-box">
-
-            <form
-                id="contactForm"
-                action="send-mail.php"
-                method="POST"
-            >
-
-                <!-- Honeypot -->
-                <div class="honeypot">
-                    <label>
-                        Website
-                        <input type="text" name="website" tabindex="-1" autocomplete="off">
-                    </label>
-                </div>
-
-
-                <div class="form-row">
-
-                    <div class="form-group">
-
-                        <label for="name">
-                            Full Name *
-                        </label>
-
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="Your full name"
-                            required
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="email">
-                            Email Address *
-                        </label>
-
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="you@example.com"
-                            required
-                        >
-
-                    </div>
-
-                </div>
-
-
-                <div class="form-row">
-
-                    <div class="form-group">
-
-                        <label for="phone">
-                            Phone / WhatsApp
-                        </label>
-
-                        <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            placeholder="+254..."
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="service">
-                            Service Required *
-                        </label>
-
-                        <select
-                            id="service"
-                            name="service"
-                            required
-                        >
-
-                            <option value="">
-                                Select a service
-                            </option>
-
-                            <option value="Website Development">
-                                Website Development
-                            </option>
-
-                            <option value="Web Applications">
-                                Web Applications
-                            </option>
-
-                            <option value="E-Commerce">
-                                E-Commerce
-                            </option>
-
-                            <option value="SEO & Digital Marketing">
-                                SEO & Digital Marketing
-                            </option>
-
-                            <option value="AI & Automation">
-                                AI & Automation
-                            </option>
-
-                            <option value="Hosting & Maintenance">
-                                Hosting & Maintenance
-                            </option>
-
-                            <option value="Branding & Design">
-                                Branding & Design
-                            </option>
-
-                            <option value="Technology Consulting">
-                                Technology Consulting
-                            </option>
-
-                            <option value="Other">
-                                Other
-                            </option>
-
-                        </select>
-
-                    </div>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="budget">
-                        Estimated Budget
-                    </label>
-
-                    <select id="budget" name="budget">
-
-                        <option value="">
-                            Select if known
-                        </option>
-
-                        <option value="Below KSh 20,000">
-                            Below KSh 20,000
-                        </option>
-
-                        <option value="KSh 20,000 - 50,000">
-                            KSh 20,000 - 50,000
-                        </option>
-
-                        <option value="KSh 50,000 - 100,000">
-                            KSh 50,000 - 100,000
-                        </option>
-
-                        <option value="KSh 100,000+">
-                            KSh 100,000+
-                        </option>
-
-                        <option value="Not sure yet">
-                            Not sure yet
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="message">
-                        Project Details *
-                    </label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="7"
-                        placeholder="Tell us about your project, what you need, and any important requirements..."
-                        required
-                    ></textarea>
-
-                </div>
-
-
-                <label class="consent">
-
-                    <input
-                        type="checkbox"
-                        name="consent"
-                        value="yes"
-                        required
-                    >
-
-                    <span>
-                        I agree that Soft Tech may use the information
-                        provided to respond to this enquiry.
-                    </span>
-
-                </label>
-
-
-                <button
-                    type="submit"
-                    class="btn primary form-button"
-                >
-                    Send Enquiry
-                    <span>→</span>
-                </button>
-
-
-                <div
-                    id="formMessage"
-                    class="form-message"
-                    role="status"
-                    aria-live="polite"
-                ></div>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= TERMS ================= -->
-
-<section class="legal-section" id="terms">
-
-    <div class="container legal-container">
-
-        <div class="eyebrow">
-            <span></span>
-            TERMS & CONDITIONS
-        </div>
-
-        <h2>
-            Terms of Service
-        </h2>
-
-        <p>
-            Soft Tech provides technology and digital services according
-            to the requirements agreed with the client. Project scope,
-            deliverables, timelines and fees should be confirmed before
-            substantial development begins.
-        </p>
-
-        <p>
-            Clients are responsible for providing accurate information,
-            required content, credentials and approvals necessary for the
-            project. Delays in providing required materials may affect
-            delivery timelines.
-        </p>
-
-        <p>
-            Third-party services, hosting providers, domains, software,
-            APIs and other external services may be subject to their own
-            terms, pricing and availability.
-        </p>
-
-        <p>
-            Intellectual property ownership and licensing arrangements
-            should be agreed as part of the relevant project.
-        </p>
-
-        <p>
-            Soft Tech reserves the right to update these terms when
-            necessary to reflect changes in services or business
-            operations.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PRIVACY ================= -->
-
-<section class="legal-section" id="privacy">
-
-    <div class="container legal-container">
-
-        <div class="eyebrow">
-            <span></span>
-            PRIVACY
-        </div>
-
-        <h2>
-            Privacy Policy
-        </h2>
-
-        <p>
-            Soft Tech may collect information submitted through the
-            website enquiry form, including name, email address, phone
-            number and project information.
-        </p>
-
-        <p>
-            This information is used primarily to respond to enquiries,
-            understand project requirements and communicate with clients
-            regarding requested services.
-        </p>
-
-        <p>
-            Information should not be submitted through the website where
-            it is not necessary for the requested service.
-        </p>
-
-        <p>
-            Reasonable measures are taken to protect information received
-            through the website. However, no internet transmission or
-            storage system can be guaranteed to be completely secure.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= COOKIES ================= -->
-
-<section class="legal-section" id="cookies">
-
-    <div class="container legal-container">
-
-        <div class="eyebrow">
-            <span></span>
-            COOKIES
-        </div>
-
-        <h2>
-            Cookie Preferences
-        </h2>
-
-        <p>
-            Soft Tech may use essential browser storage and similar
-            technologies to remember website preferences and improve
-            website functionality.
-        </p>
-
-        <p>
-            The current website does not require advertising cookies for
-            its basic operation. If analytics or other non-essential
-            tracking services are introduced, appropriate consent
-            controls may be implemented.
-        </p>
-
-        <button
-            type="button"
-            id="cookieSettingsButton"
-            class="text-button"
-        >
-            Manage Cookie Preferences
-        </button>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="site-footer">
-
-    <div class="container footer-grid">
-
-        <div class="footer-brand">
-
-            <a href="#home" class="logo footer-logo">
-                <span>Soft</span> Tech
-            </a>
-
-            <p>
-                Professional technology and digital solutions for
-                businesses, organisations and individuals.
-            </p>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h4>Company</h4>
-
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#process">How We Work</a>
-            <a href="#faq">FAQs</a>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h4>Legal</h4>
-
-            <a href="#terms">Terms & Conditions</a>
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#cookies">Cookies</a>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h4>Contact</h4>
-
-            <a href="mailto:owinojerim269@gmail.com">
-                Email Us
-            </a>
-
-            <a
-                href="https://wa.me/254758943430"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                WhatsApp
-            </a>
-
-            <a href="#contact">
-                Send an Enquiry
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <div class="container footer-bottom">
-
-        <p>
-            © <span id="currentYear"></span> Soft Tech. All rights reserved.
-        </p>
-
-        <button
-            type="button"
-            id="footerCookieButton"
-            class="footer-cookie-button"
-        >
-            Cookie Settings
-        </button>
-
-    </div>
-
-</footer>
-
-
-<!-- ================= COOKIE BANNER ================= -->
-
-<div
-    class="cookie-banner"
-    id="cookieBanner"
-    role="dialog"
-    aria-label="Cookie preferences"
->
-
-    <div class="cookie-content">
-
-        <div>
-
-            <strong>
-                We value your privacy
-            </strong>
-
-            <p>
-                This website uses essential browser storage to remember
-                preferences. You can accept, reject or manage preferences.
-            </p>
-
-        </div>
-
-
-        <div class="cookie-actions">
-
-            <button
-                type="button"
-                id="rejectCookies"
-                class="cookie-btn secondary-cookie"
-            >
-                Reject
-            </button>
-
-            <button
-                type="button"
-                id="manageCookies"
-                class="cookie-btn outline-cookie"
-            >
-                Settings
-            </button>
-
-            <button
-                type="button"
-                id="acceptCookies"
-                class="cookie-btn primary-cookie"
-            >
-                Accept
-            </button>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- ================= COOKIE MODAL ================= -->
-
-<div
-    class="cookie-modal"
-    id="cookieModal"
-    aria-hidden="true"
->
-
-    <div class="cookie-modal-box">
-
-        <button
-            type="button"
-            class="cookie-close"
-            id="closeCookieModal"
-            aria-label="Close cookie settings"
-        >
-            ×
-        </button>
-
-        <div class="eyebrow">
-            <span></span>
-            COOKIE SETTINGS
-        </div>
-
-        <h2>
-            Manage your preferences
-        </h2>
-
-        <p>
-            Choose whether preference storage should be enabled on this
-            website.
-        </p>
-
-
-        <label class="preference-row">
-
-            <span>
-                <strong>Preference storage</strong>
-                <small>
-                    Allows the website to remember your selected preferences.
-                </small>
-            </span>
-
-            <input
-                type="checkbox"
-                id="preferenceCookies"
-            >
-
-        </label>
-
-
-        <button
-            type="button"
-            id="saveCookiePreferences"
-            class="btn primary"
-        >
-            Save Preferences
-        </button>
-
-    </div>
-
-</div>
-
-
-<script src="script.js"></script>
-
-</body>
-</html>
+:root {
+    --navy: #071525;
+    --navy-light: #0d2138;
+    --blue: #1268e3;
+    --cyan: #20c7d9;
+    --white: #ffffff;
+    --cream: #f7f9fc;
+    --text: #172334;
+    --muted: #64748b;
+    --border: #e4e9f0;
+    --shadow: 0 20px 50px rgba(7, 21, 37, 0.09);
+    --radius: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.7;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+.container {
+    width: min(1140px, calc(100% - 40px));
+    margin: auto;
+}
+
+
+/* ================= HEADER ================= */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+}
+
+.nav {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: var(--navy);
+}
+
+.logo span {
+    color: var(--blue);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #334155;
+    transition: 0.25s ease;
+}
+
+nav a:hover {
+    color: var(--blue);
+}
+
+.nav-cta {
+    background: var(--navy);
+    color: white !important;
+    padding: 11px 18px;
+    border-radius: 8px;
+}
+
+.nav-cta:hover {
+    background: var(--blue);
+}
+
+.menu-toggle {
+    display: none;
+    border: 0;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    padding: 90px 0;
+    background:
+        radial-gradient(circle at 85% 20%, rgba(32,199,217,0.13), transparent 30%),
+        linear-gradient(135deg, #f8fbff, #ffffff);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+}
+
+.eyebrow span {
+    width: 26px;
+    height: 2px;
+    background: var(--cyan);
+    display: inline-block;
+}
+
+.hero h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 1.08;
+    letter-spacing: -3px;
+    color: var(--navy);
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: var(--blue);
+}
+
+.hero-copy {
+    max-width: 650px;
+    color: var(--muted);
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 22px;
+    border-radius: 9px;
+    font-weight: 700;
+    transition: 0.25s ease;
+}
+
+.btn.primary {
+    background: var(--blue);
+    color: white;
+}
+
+.btn.primary:hover {
+    transform: translateY(-2px);
+    background: #0d58c5;
+}
+
+.btn.secondary {
+    background: white;
+    border: 1px solid var(--border);
+    color: var(--navy);
+}
+
+.btn.secondary:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.trust-row {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.trust-row strong {
+    color: var(--cyan);
+    margin-right: 5px;
+}
+
+.hero-image {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    min-height: 520px;
+    box-shadow: var(--shadow);
+}
+
+.hero-image img {
+    height: 520px;
+    object-fit: cover;
+}
+
+.image-overlay {
+    position: absolute;
+    inset: auto 20px 20px 20px;
+    background: rgba(7,21,37,0.9);
+    color: white;
+    padding: 22px;
+    border-radius: 14px;
+}
+
+.online-badge {
+    color: #6ee7f3;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.image-caption h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 23px;
+}
+
+.image-caption p {
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+
+/* ================= STATS ================= */
+
+.stats {
+    background: var(--navy);
+    color: white;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.stat {
+    text-align: center;
+    padding: 30px 15px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat:last-child {
+    border-right: 0;
+}
+
+.stat strong {
+    display: block;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+}
+
+.stat span {
+    color: #aebdce;
+    font-size: 13px;
+}
+
+
+/* ================= GENERAL SECTIONS ================= */
+
+.section {
+    padding: 100px 0;
+}
+
+.light-section {
+    background: var(--cream);
+}
+
+.section-heading {
+    max-width: 720px;
+    margin-bottom: 55px;
+}
+
+.section-heading h2,
+.content-panel h2,
+.contact-intro h2,
+.legal-container h2,
+.cookie-modal-box h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.15;
+    letter-spacing: -1.7px;
+    color: var(--navy);
+    margin-bottom: 18px;
+}
+
+.section-heading p,
+.content-panel p {
+    color: var(--muted);
+}
+
+
+/* ================= ABOUT ================= */
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+    align-items: center;
+}
+
+.content-panel p {
+    margin-bottom: 17px;
+}
+
+.about-box {
+    display: grid;
+    gap: 16px;
+}
+
+.about-card {
+    background: white;
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(7,21,37,0.04);
+}
+
+.about-card:hover {
+    border-color: #c8d9ef;
+}
+
+.card-number {
+    color: var(--blue);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.about-card h3 {
+    font-family: "Manrope", sans-serif;
+    margin: 8px 0;
+}
+
+.about-card p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+
+/* ================= SERVICES ================= */
+
+.services-section {
+    background: var(--cream);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.service-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf3ff;
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.service-card a {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+/* ================= FEATURES ================= */
+
+.feature-panel {
+    display: grid;
+    gap: 20px;
+}
+
+.feature-line {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 18px;
+    padding: 22px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+}
+
+.feature-line > span {
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.feature-line h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feature-line p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.text-link {
+    display: inline-block;
+    color: var(--blue);
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+/* ================= PROCESS ================= */
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.process-card {
+    padding: 30px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: white;
+}
+
+.process-card > span {
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.process-card h3 {
+    font-family: "Manrope", sans-serif;
+    margin: 12px 0 8px;
+}
+
+.process-card p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+
+/* ================= FAQ ================= */
+
+.faq-section {
+    background: var(--cream);
+}
+
+.faq-container {
+    max-width: 900px;
+}
+
+.faq-list {
+    border-top: 1px solid var(--border);
+}
+
+.faq-item {
+    background: white;
+    border: 1px solid var(--border);
+    border-top: 0;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 21px 22px;
+    border: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text);
+}
+
+.faq-question:hover {
+    color: var(--blue);
+}
+
+.faq-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #edf5ff;
+    color: var(--blue);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/*
+   IMPORTANT:
+   When the FAQ is active, the plus rotates to become
+   an X. Because the entire button is clickable, the
+   icon is clickable as part of the same button.
+*/
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+    background: var(--blue);
+    color: white;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.faq-answer p {
+    padding: 0 22px 22px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact-section {
+    background: var(--navy);
+    color: white;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 70px;
+    align-items: start;
+}
+
+.contact-intro .eyebrow {
+    color: var(--cyan);
+}
+
+.contact-intro h2 {
+    color: white;
+}
+
+.contact-intro > p {
+    color: #b7c5d6;
+    max-width: 500px;
+}
+
+.contact-details {
+    margin-top: 35px;
+    display: grid;
+    gap: 20px;
+}
+
+.contact-detail span {
+    display: block;
+    color: var(--cyan);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.contact-detail a {
+    color: white;
+    font-weight: 600;
+}
+
+.contact-form-box {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: var(--text);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 13px 14px;
+    outline: none;
+    color: var(--text);
+    background: white;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--blue);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.consent input {
+    margin-top: 5px;
+}
+
+.form-button {
+    width: 100%;
+}
+
+.form-message {
+    display: none;
+    margin-top: 15px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.form-message.success {
+    display: block;
+    background: #ecfdf5;
+    color: #047857;
+}
+
+.form-message.error {
+    display: block;
+    background: #fef2f2;
+    color: #b91c1c;
+}
+
+.honeypot {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+
+/* ================= LEGAL ================= */
+
+.legal-section {
+    padding: 75px 0;
+    border-top: 1px solid var(--border);
+}
+
+.legal-container {
+    max-width: 900px;
+}
+
+.legal-container p {
+    color: var(--muted);
+    margin-bottom: 15px;
+}
+
+.text-button {
+    border: 0;
+    background: none;
+    color: var(--blue);
+    cursor: pointer;
+    font-weight: 800;
+    padding: 0;
+}
+
+
+/* ================= FOOTER ================= */
+
+.site-footer {
+    background: #040d18;
+    color: white;
+    padding-top: 65px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    color: #94a3b8;
+    max-width: 350px;
+    font-size: 14px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h4 {
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.footer-cookie-button {
+    border: 0;
+    background: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+/* ================= COOKIE BANNER ================= */
+
+.cookie-banner {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2000;
+    background: var(--navy);
+    color: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    display: none;
+}
+
+.cookie-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.cookie-content strong {
+    font-family: "Manrope", sans-serif;
+}
+
+.cookie-content p {
+    color: #b6c2d0;
+    font-size: 13px;
+    max-width: 650px;
+    margin-top: 4px;
+}
+
+.cookie-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.cookie-btn {
+    border: 0;
+    border-radius: 7px;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.primary-cookie {
+    background: var(--blue);
+    color: white;
+}
+
+.secondary-cookie {
+    background: #25364b;
+    color: white;
+}
+
+.outline-cookie {
+    background: transparent;
+    border: 1px solid #506177;
+    color: white;
+}
+
+
+/* ================= COOKIE MODAL ================= */
+
+.cookie-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cookie-modal.show {
+    display: flex;
+}
+
+.cookie-modal-box {
+    position: relative;
+    width: min(500px, 100%);
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+.cookie-close {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    border: 0;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.cookie-modal-box p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.preference-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid var(--border);
+    padding: 17px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.preference-row small {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+.preference-row input {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+
+    .hero-grid,
+    .two-column,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image {
+        max-width: 700px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-grid {
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 72px;
+        background: white;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+        padding: 20px;
+        border-radius: 12px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav a {
+        padding: 12px 5px;
+    }
+
+    .nav-cta {
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat:nth-child(2) {
+        border-right: 0;
+    }
+
+    .stat:nth-child(-n+2) {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+
+    .hero h1 {
+        letter-spacing: -2px;
+    }
+
+    .cookie-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cookie-actions {
+        width: 100%;
+    }
+
+    .cookie-btn {
+        flex: 1;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: min(100% - 28px, 1140px);
+    }
+
+    .section {
+        padding: 70px 0;
+    }
+
+    .hero-image,
+    .hero-image img {
+        min-height: 380px;
+        height: 380px;
+    }
+
+    .services-grid,
+    .process-grid,
+    .form-row,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .trust-row {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .contact-form-box {
+        padding: 22px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cookie-banner {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .cookie-actions {
+        flex-direction: column;
+    }
+
+}
