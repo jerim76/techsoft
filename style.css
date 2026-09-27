@@ -2,84 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Soft Tech | Digital Solutions & Technology Services</title>
+    <title>Soft Tech | Technology & Digital Solutions</title>
 
-    <meta name="description"
-          content="Soft Tech provides professional website development, web applications, e-commerce, SEO, digital marketing, AI automation, hosting support, branding and technology consulting.">
+    <meta name="description" content="Soft Tech provides professional website development, web applications, e-commerce, SEO, digital marketing, AI automation, hosting support and technology consulting.">
 
-    <meta name="keywords"
-          content="Soft Tech, website development, web design, software development, web applications, e-commerce, SEO, digital marketing, AI automation, hosting, technology consulting">
+    <meta name="keywords" content="Soft Tech, website development, web development, software development, e-commerce, SEO, digital marketing, AI automation, web applications, hosting, technology solutions">
 
     <meta name="author" content="Soft Tech">
 
-    <meta name="robots" content="index, follow">
-
-    <meta property="og:title"
-          content="Soft Tech | Technology That Moves Your Business Forward">
-
-    <meta property="og:description"
-          content="Professional digital and technology solutions for businesses, organisations and individuals.">
-
+    <meta property="og:title" content="Soft Tech | Technology & Digital Solutions">
+    <meta property="og:description" content="Professional technology and digital solutions for businesses, organisations and individuals.">
     <meta property="og:type" content="website">
 
-    <meta property="og:url" content="https://yourdomain.com/">
+    <meta name="theme-color" content="#071525">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =========================
-     HEADER
-========================= -->
+<!-- ================= HEADER ================= -->
 
 <header class="site-header">
 
-    <div class="container nav-container">
+    <div class="container nav">
 
         <a href="#home" class="logo">
-            <span class="logo-mark">S</span>
-            <span>Soft<span>Tech</span></span>
+            <span>Soft</span> Tech
         </a>
 
         <button
-            class="mobile-menu-button"
-            id="mobileMenuButton"
-            aria-label="Open navigation menu"
-            aria-expanded="false">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            ☰
         </button>
 
-        <nav class="main-navigation" id="mainNavigation">
+        <nav id="navMenu">
 
             <a href="#home">Home</a>
-
-            <a href="#services">Services</a>
-
             <a href="#about">About</a>
-
+            <a href="#services">Services</a>
             <a href="#process">Process</a>
+            <a href="#faq">FAQs</a>
 
-            <a href="#faq">FAQ</a>
-
-            <a href="#contact" class="nav-contact">
-                Start a Project
+            <a href="#contact" class="nav-cta">
+                Enquire Now
             </a>
 
         </nav>
@@ -91,62 +72,63 @@
 
 <main>
 
-<!-- =========================
-     HERO
-========================= -->
+<!-- ================= HERO ================= -->
 
-<section class="hero" id="home">
-
-    <div class="hero-background"></div>
+<section id="home" class="hero">
 
     <div class="container hero-grid">
 
         <div class="hero-content">
 
-            <div class="hero-badge">
-                <span class="status-dot"></span>
-                Digital solutions for modern businesses
-            </div>
+            <span class="eyebrow">
+                TECHNOLOGY • DIGITAL SOLUTIONS • INNOVATION
+            </span>
 
             <h1>
-                Technology that moves
-                <span>your business forward.</span>
+                Technology that
+                <br>
+                <span>moves your business forward.</span>
             </h1>
 
-            <p class="hero-description">
-                Soft Tech creates practical, professional and scalable
-                digital solutions that help businesses, organisations
-                and individuals work smarter and grow online.
+            <p class="hero-copy">
+                Soft Tech provides practical technology and digital solutions
+                designed to help businesses, organisations and individuals
+                build, improve and manage their digital presence.
             </p>
 
             <div class="hero-actions">
 
-                <a href="#contact" class="btn btn-primary">
-                    Start a Project
+                <a href="#contact" class="btn primary">
+                    Start an Enquiry
                     <span>→</span>
                 </a>
 
-                <a href="#services" class="btn btn-secondary">
-                    Explore Services
+                <a
+                    href="https://wa.me/254758943430"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn secondary"
+                >
+                    WhatsApp Us
                 </a>
 
             </div>
 
-            <div class="hero-trust">
+            <div class="trust-row">
 
                 <div>
-                    <strong>Web</strong>
-                    <span>Development</span>
+                    <strong>✓</strong>
+                    Professional solutions
                 </div>
 
                 <div>
-                    <strong>AI</strong>
-                    <span>Automation</span>
+                    <strong>✓</strong>
+                    Business-focused technology
                 </div>
 
                 <div>
-                    <strong>Digital</strong>
-                    <span>Growth</span>
+                    <strong>✓</strong>
+                    Ongoing support
                 </div>
 
             </div>
@@ -154,88 +136,29 @@
         </div>
 
 
-        <div class="hero-visual">
+        <div class="hero-image">
 
-            <div class="dashboard-card">
+            <img
+                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
+                alt="Professionals working with digital technology"
+            >
 
-                <div class="dashboard-top">
+            <div class="image-overlay">
 
-                    <div class="window-dots">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                    </div>
+                <div class="online-badge">
+                    ● DIGITAL SOLUTIONS
+                </div>
 
-                    <span>Soft Tech</span>
+                <div class="image-caption">
+
+                    <h3>Build. Improve. Grow.</h3>
+
+                    <p>
+                        Technology designed around your goals and requirements.
+                    </p>
 
                 </div>
 
-                <div class="dashboard-body">
-
-                    <div class="dashboard-heading">
-
-                        <div>
-                            <small>Digital Performance</small>
-                            <h3>Technology Dashboard</h3>
-                        </div>
-
-                        <span class="dashboard-icon">↗</span>
-
-                    </div>
-
-                    <div class="chart">
-
-                        <div class="chart-line"></div>
-
-                        <div class="chart-bars">
-                            <span style="height:35%"></span>
-                            <span style="height:50%"></span>
-                            <span style="height:43%"></span>
-                            <span style="height:70%"></span>
-                            <span style="height:60%"></span>
-                            <span style="height:82%"></span>
-                            <span style="height:94%"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="dashboard-stats">
-
-                        <div>
-                            <small>Projects</small>
-                            <strong>Digital</strong>
-                        </div>
-
-                        <div>
-                            <small>Solutions</small>
-                            <strong>Scalable</strong>
-                        </div>
-
-                        <div>
-                            <small>Approach</small>
-                            <strong>Practical</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="floating-card floating-one">
-                <span class="floating-icon">✓</span>
-                <div>
-                    <strong>Responsive</strong>
-                    <small>Every device</small>
-                </div>
-            </div>
-
-            <div class="floating-card floating-two">
-                <span class="floating-icon">⚡</span>
-                <div>
-                    <strong>Smart Solutions</strong>
-                    <small>Built for growth</small>
-                </div>
             </div>
 
         </div>
@@ -245,27 +168,146 @@
 </section>
 
 
-<!-- =========================
-     SERVICES
-========================= -->
+<!-- ================= STATS ================= -->
 
-<section class="section" id="services">
+<section class="stats">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <strong>Web</strong>
+            <span>Development</span>
+        </div>
+
+        <div class="stat">
+            <strong>Digital</strong>
+            <span>Solutions</span>
+        </div>
+
+        <div class="stat">
+            <strong>AI</strong>
+            <span>Automation</span>
+        </div>
+
+        <div class="stat">
+            <strong>24/7</strong>
+            <span>Digital Presence</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="container two-column">
+
+        <div class="content-panel">
+
+            <div class="eyebrow">
+                <span></span>
+                ABOUT SOFT TECH
+            </div>
+
+            <h2>
+                Practical technology for a changing digital world.
+            </h2>
+
+            <p>
+                Soft Tech is a technology and digital solutions provider
+                focused on helping businesses, organisations and individuals
+                use technology more effectively.
+            </p>
+
+            <p>
+                We work across website development, web applications,
+                e-commerce, digital marketing, SEO, AI and automation,
+                maintenance and technology consulting.
+            </p>
+
+            <p>
+                Our approach is simple: understand the requirement,
+                develop a suitable solution and provide support beyond
+                the initial delivery where required.
+            </p>
+
+        </div>
+
+
+        <div class="about-box">
+
+            <div class="about-card">
+
+                <span class="card-number">01</span>
+
+                <h3>Understand</h3>
+
+                <p>
+                    We begin by understanding your objectives, audience,
+                    challenges and technical requirements.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <span class="card-number">02</span>
+
+                <h3>Build</h3>
+
+                <p>
+                    We develop practical digital solutions around the
+                    requirements of the project.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <span class="card-number">03</span>
+
+                <h3>Support</h3>
+
+                <p>
+                    We can continue to assist with improvements,
+                    maintenance, hosting and technical support.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services-section" id="services">
 
     <div class="container">
 
         <div class="section-heading">
 
-            <span class="eyebrow">OUR SERVICES</span>
+            <div class="eyebrow">
+                <span></span>
+                OUR SERVICES
+            </div>
 
             <h2>
-                Technology solutions built around
-                <span>your needs.</span>
+                Digital solutions built around your needs.
             </h2>
 
             <p>
-                From a professional business website to custom digital
-                systems, Soft Tech provides practical solutions designed
-                around your objectives.
+                From establishing your online presence to improving
+                existing systems, Soft Tech provides a range of
+                technology-focused services.
             </p>
 
         </div>
@@ -273,18 +315,19 @@
 
         <div class="services-grid">
 
+
             <article class="service-card">
 
-                <div class="service-icon">⌘</div>
+                <div class="service-icon">01</div>
 
                 <h3>Website Development</h3>
 
                 <p>
-                    Professional, responsive websites designed to establish
-                    your online presence and communicate your brand clearly.
+                    Professional, responsive websites for businesses,
+                    organisations, personal brands and projects.
                 </p>
 
-                <a href="#contact" class="service-link">
+                <a href="#contact">
                     Discuss a website →
                 </a>
 
@@ -293,16 +336,16 @@
 
             <article class="service-card">
 
-                <div class="service-icon">▣</div>
+                <div class="service-icon">02</div>
 
                 <h3>Web Applications</h3>
 
                 <p>
-                    Custom web-based systems, dashboards, portals and
-                    platforms designed around specific business workflows.
+                    Custom web-based platforms and applications designed
+                    around specific workflows and business requirements.
                 </p>
 
-                <a href="#contact" class="service-link">
+                <a href="#contact">
                     Discuss your system →
                 </a>
 
@@ -311,17 +354,17 @@
 
             <article class="service-card">
 
-                <div class="service-icon">🛒</div>
+                <div class="service-icon">03</div>
 
                 <h3>E-Commerce</h3>
 
                 <p>
-                    Online stores and digital commerce solutions that make
-                    it easier to present products and manage online sales.
+                    Online stores and digital commerce solutions that help
+                    businesses present products and manage online sales.
                 </p>
 
-                <a href="#contact" class="service-link">
-                    Build an online store →
+                <a href="#contact">
+                    Discuss e-commerce →
                 </a>
 
             </article>
@@ -329,7 +372,7 @@
 
             <article class="service-card">
 
-                <div class="service-icon">⌁</div>
+                <div class="service-icon">04</div>
 
                 <h3>SEO & Digital Marketing</h3>
 
@@ -338,7 +381,7 @@
                     marketing support designed to improve online visibility.
                 </p>
 
-                <a href="#contact" class="service-link">
+                <a href="#contact">
                     Improve visibility →
                 </a>
 
@@ -347,16 +390,16 @@
 
             <article class="service-card">
 
-                <div class="service-icon">✦</div>
+                <div class="service-icon">05</div>
 
                 <h3>AI & Automation</h3>
 
                 <p>
-                    Practical applications of AI and automation to reduce
-                    repetitive work and improve digital workflows.
+                    Practical applications of artificial intelligence and
+                    automation to streamline selected business processes.
                 </p>
 
-                <a href="#contact" class="service-link">
+                <a href="#contact">
                     Explore automation →
                 </a>
 
@@ -365,17 +408,17 @@
 
             <article class="service-card">
 
-                <div class="service-icon">◉</div>
+                <div class="service-icon">06</div>
 
                 <h3>Hosting & Maintenance</h3>
 
                 <p>
-                    Technical support for deployment, hosting configuration,
-                    updates, troubleshooting and ongoing website maintenance.
+                    Website deployment, hosting assistance, updates,
+                    maintenance and troubleshooting support.
                 </p>
 
-                <a href="#contact" class="service-link">
-                    Get technical support →
+                <a href="#contact">
+                    Request support →
                 </a>
 
             </article>
@@ -383,17 +426,17 @@
 
             <article class="service-card">
 
-                <div class="service-icon">◇</div>
+                <div class="service-icon">07</div>
 
                 <h3>Branding & Design</h3>
 
                 <p>
-                    Clean digital branding and visual design that helps
-                    businesses present a consistent professional identity.
+                    Digital brand assets and visual solutions that help
+                    businesses establish a consistent online identity.
                 </p>
 
-                <a href="#contact" class="service-link">
-                    Discuss your brand →
+                <a href="#contact">
+                    Discuss design →
                 </a>
 
             </article>
@@ -401,17 +444,17 @@
 
             <article class="service-card">
 
-                <div class="service-icon">◎</div>
+                <div class="service-icon">08</div>
 
                 <h3>Technology Consulting</h3>
 
                 <p>
-                    Technology guidance for organisations looking to select,
-                    improve or implement suitable digital solutions.
+                    Guidance on technology choices, digital platforms,
+                    website improvements, integrations and online operations.
                 </p>
 
-                <a href="#contact" class="service-link">
-                    Request consultation →
+                <a href="#contact">
+                    Discuss your needs →
                 </a>
 
             </article>
@@ -423,94 +466,88 @@
 </section>
 
 
-<!-- =========================
-     ABOUT
-========================= -->
+<!-- ================= WHY SOFT TECH ================= -->
 
-<section class="section about-section" id="about">
+<section class="section light-section">
 
-    <div class="container about-grid">
+    <div class="container two-column">
 
-        <div class="about-visual">
+        <div class="feature-panel">
 
-            <div class="about-main-card">
-
-                <div class="about-symbol">S</div>
-
+            <div class="feature-line">
+                <span>01</span>
                 <div>
-
-                    <span>SOFT TECH</span>
-
-                    <h3>
-                        Digital thinking.
-                        Practical technology.
-                    </h3>
-
+                    <h3>Built around the requirement</h3>
+                    <p>
+                        Solutions are developed according to the purpose,
+                        audience and functionality required.
+                    </p>
                 </div>
-
             </div>
 
-            <div class="about-mini-card">
-                <strong>01</strong>
-                <span>Understand</span>
+
+            <div class="feature-line">
+                <span>02</span>
+                <div>
+                    <h3>Responsive by design</h3>
+                    <p>
+                        Websites are designed to work across desktop,
+                        tablet and mobile devices.
+                    </p>
+                </div>
             </div>
 
-            <div class="about-mini-card second">
-                <strong>02</strong>
-                <span>Build</span>
+
+            <div class="feature-line">
+                <span>03</span>
+                <div>
+                    <h3>Focused on usability</h3>
+                    <p>
+                        Clear navigation and practical functionality remain
+                        central to the development process.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="feature-line">
+                <span>04</span>
+                <div>
+                    <h3>Support when required</h3>
+                    <p>
+                        Development can be followed by maintenance,
+                        updates and technical assistance.
+                    </p>
+                </div>
             </div>
 
         </div>
 
 
-        <div class="about-content">
+        <div class="content-panel">
 
-            <span class="eyebrow">ABOUT SOFT TECH</span>
+            <div class="eyebrow">
+                <span></span>
+                WHY SOFT TECH
+            </div>
 
             <h2>
-                Technology should solve
-                <span>real problems.</span>
+                Technology should solve problems, not create them.
             </h2>
 
             <p>
-                Soft Tech is a technology and digital solutions service
-                focused on helping businesses, organisations and
-                individuals use technology more effectively.
+                A digital solution should be understandable, usable and
+                aligned with the reason it was created.
             </p>
 
             <p>
-                We combine web development, digital strategy, automation,
-                design and technical support to create solutions that are
-                useful, accessible and built with long-term usability in
-                mind.
+                Soft Tech focuses on creating solutions that provide
+                practical value while leaving room for future improvements
+                and growth.
             </p>
 
-            <div class="about-points">
-
-                <div>
-                    <span>✓</span>
-                    <p>Solutions designed around actual requirements</p>
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    <p>Responsive experiences across devices</p>
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    <p>Clear communication throughout development</p>
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    <p>Support after deployment when required</p>
-                </div>
-
-            </div>
-
-            <a href="#contact" class="text-button">
-                Work with Soft Tech →
+            <a href="#contact" class="text-link">
+                Talk to Soft Tech →
             </a>
 
         </div>
@@ -520,27 +557,22 @@
 </section>
 
 
-<!-- =========================
-     PROCESS
-========================= -->
+<!-- ================= PROCESS ================= -->
 
-<section class="section process-section" id="process">
+<section class="section" id="process">
 
     <div class="container">
 
-        <div class="section-heading centered">
+        <div class="section-heading">
 
-            <span class="eyebrow">HOW WE WORK</span>
+            <div class="eyebrow">
+                <span></span>
+                HOW WE WORK
+            </div>
 
             <h2>
-                From idea to
-                <span>working solution.</span>
+                A straightforward development process.
             </h2>
-
-            <p>
-                A straightforward process keeps projects organised,
-                transparent and focused on the intended outcome.
-            </p>
 
         </div>
 
@@ -549,15 +581,13 @@
 
             <div class="process-card">
 
-                <span class="process-number">01</span>
+                <span>01</span>
 
-                <div class="process-icon">?</div>
-
-                <h3>Understand</h3>
+                <h3>Enquiry</h3>
 
                 <p>
-                    We discuss your goals, requirements, audience,
-                    challenges and expected outcome.
+                    Tell us about your project, business or technical
+                    requirement.
                 </p>
 
             </div>
@@ -565,15 +595,13 @@
 
             <div class="process-card">
 
-                <span class="process-number">02</span>
+                <span>02</span>
 
-                <div class="process-icon">◇</div>
-
-                <h3>Plan</h3>
+                <h3>Discussion</h3>
 
                 <p>
-                    The project scope, structure, functionality and
-                    implementation approach are defined.
+                    We discuss your requirements, functionality,
+                    objectives and expected deliverables.
                 </p>
 
             </div>
@@ -581,15 +609,12 @@
 
             <div class="process-card">
 
-                <span class="process-number">03</span>
+                <span>03</span>
 
-                <div class="process-icon">⚙</div>
-
-                <h3>Build</h3>
+                <h3>Development</h3>
 
                 <p>
-                    The solution is developed, tested and refined according
-                    to the agreed requirements.
+                    The agreed solution is designed, developed and tested.
                 </p>
 
             </div>
@@ -597,15 +622,13 @@
 
             <div class="process-card">
 
-                <span class="process-number">04</span>
+                <span>04</span>
 
-                <div class="process-icon">↗</div>
-
-                <h3>Launch</h3>
+                <h3>Launch & Support</h3>
 
                 <p>
-                    The completed solution is deployed and guidance or
-                    ongoing technical support can be provided.
+                    The completed solution is deployed and support can
+                    continue where required.
                 </p>
 
             </div>
@@ -617,31 +640,26 @@
 </section>
 
 
-<!-- =========================
-     FAQ
-========================= -->
+<!-- ================= FAQ ================= -->
 
 <section class="section faq-section" id="faq">
 
-    <div class="container faq-grid">
+    <div class="container faq-container">
 
-        <div class="faq-intro">
+        <div class="section-heading">
 
-            <span class="eyebrow">FAQ</span>
+            <div class="eyebrow">
+                <span></span>
+                FREQUENTLY ASKED QUESTIONS
+            </div>
 
             <h2>
-                Questions,
-                <span>answered.</span>
+                Questions about Soft Tech?
             </h2>
 
             <p>
-                Here are answers to some of the questions clients commonly
-                ask before starting a project with Soft Tech.
+                Click any question or the plus icon to view the answer.
             </p>
-
-            <a href="#contact" class="btn btn-primary">
-                Ask Us Directly →
-            </a>
 
         </div>
 
@@ -649,16 +667,23 @@
         <div class="faq-list">
 
 
+            <!-- FAQ 1 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>What does Soft Tech do?</span>
+                    <span>
+                        What does Soft Tech do?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
@@ -678,16 +703,23 @@
             </div>
 
 
+            <!-- FAQ 2 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>Can you build a website from scratch?</span>
+                    <span>
+                        Can you build a website from scratch?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
@@ -695,10 +727,10 @@
 
                     <p>
                         Yes. Soft Tech can design and develop a website
-                        from the ground up based on your requirements.
-                        This can include the structure, responsive design,
-                        content sections, forms, deployment and ongoing
-                        maintenance.
+                        from scratch based on your requirements. This can
+                        include the website structure, responsive design,
+                        content sections, contact forms, deployment and
+                        ongoing maintenance where required.
                     </p>
 
                 </div>
@@ -706,27 +738,34 @@
             </div>
 
 
+            <!-- FAQ 3 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>Can you build custom software?</span>
+                    <span>
+                        Can you build custom software?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
                 <div class="faq-answer">
 
                     <p>
-                        Yes. Custom web-based software and digital systems
-                        can be developed around specific organisational
-                        requirements. Examples include management systems,
-                        booking platforms, client portals, workflow tools
-                        and online platforms.
+                        Yes. Soft Tech can develop custom web-based
+                        software and digital systems around specific
+                        organisational or business requirements. Examples
+                        may include management systems, booking platforms,
+                        client portals, workflow tools and online platforms.
                     </p>
 
                 </div>
@@ -734,16 +773,23 @@
             </div>
 
 
+            <!-- FAQ 4 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>Do you work with small businesses?</span>
+                    <span>
+                        Do you work with small businesses?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
@@ -751,9 +797,10 @@
 
                     <p>
                         Yes. Soft Tech works with small and growing
-                        businesses and can provide practical technology
-                        solutions that can be developed and expanded as
-                        the business grows.
+                        businesses as well as organisations and individuals.
+                        Solutions can be developed according to the current
+                        needs of the client while allowing room for future
+                        improvements.
                     </p>
 
                 </div>
@@ -761,16 +808,23 @@
             </div>
 
 
+            <!-- FAQ 5 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>Can you improve an existing website?</span>
+                    <span>
+                        Can you improve an existing website?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
@@ -778,10 +832,9 @@
 
                     <p>
                         Yes. Existing websites can be reviewed and improved
-                        in areas such as design, responsiveness, content
-                        structure, performance, SEO, functionality,
-                        technical errors, deployment, migration and
-                        maintenance.
+                        in areas such as design, mobile responsiveness,
+                        content structure, functionality, performance,
+                        SEO, deployment, migration and maintenance.
                     </p>
 
                 </div>
@@ -789,26 +842,34 @@
             </div>
 
 
+            <!-- FAQ 6 -->
+
             <div class="faq-item">
 
                 <button
                     class="faq-question"
                     type="button"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                >
 
-                    <span>How do I start a project?</span>
+                    <span>
+                        How do I start a project?
+                    </span>
 
-                    <span class="faq-icon">+</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        +
+                    </span>
 
                 </button>
 
                 <div class="faq-answer">
 
                     <p>
-                        Start by completing the project inquiry form below.
-                        Your inquiry is sent directly to Soft Tech by email.
-                        We can then discuss your requirements, scope,
-                        timeline and quotation before work begins.
+                        Start by completing the enquiry form below and
+                        providing details about your project. Your enquiry
+                        will be sent directly to our email. We can then
+                        discuss your requirements, scope, timeline and
+                        quotation before development begins.
                     </p>
 
                 </div>
@@ -822,77 +883,78 @@
 </section>
 
 
-<!-- =========================
-     CONTACT
-========================= -->
+<!-- ================= CONTACT ================= -->
 
 <section class="section contact-section" id="contact">
 
     <div class="container contact-grid">
 
-        <div class="contact-info">
+        <div class="contact-intro">
 
-            <span class="eyebrow">START A PROJECT</span>
+            <div class="eyebrow">
+                <span></span>
+                GET IN TOUCH
+            </div>
 
             <h2>
-                Have a project
-                <span>in mind?</span>
+                Have a project in mind?
             </h2>
 
             <p>
-                Tell us what you need. Provide as much information as
-                possible and Soft Tech will review your inquiry and get
-                back to you.
+                Tell us what you need and provide as much information as
+                possible. We will review your enquiry and respond with the
+                next steps.
             </p>
 
 
             <div class="contact-details">
 
-                <a href="mailto:owinojerim269@gmail.com"
-                   class="contact-detail">
+                <div class="contact-detail">
 
-                    <span class="contact-detail-icon">✉</span>
+                    <span>EMAIL</span>
 
-                    <div>
-                        <small>Email</small>
-                        <strong>owinojerim269@gmail.com</strong>
-                    </div>
+                    <a href="mailto:owinojerim269@gmail.com">
+                        owinojerim269@gmail.com
+                    </a>
 
-                </a>
+                </div>
 
 
-                <a href="https://wa.me/254758943430"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="contact-detail">
+                <div class="contact-detail">
 
-                    <span class="contact-detail-icon">◉</span>
+                    <span>WHATSAPP</span>
 
-                    <div>
-                        <small>WhatsApp</small>
-                        <strong>+254 758 943 430</strong>
-                    </div>
+                    <a
+                        href="https://wa.me/254758943430"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        +254 758 943 430
+                    </a>
 
-                </a>
+                </div>
 
             </div>
 
         </div>
 
 
-        <div class="contact-form-wrapper">
+        <div class="contact-form-box">
 
             <form
                 id="contactForm"
                 action="send-mail.php"
-                method="POST">
+                method="POST"
+            >
 
-                <input
-                    type="text"
-                    name="website"
-                    class="honeypot"
-                    tabindex="-1"
-                    autocomplete="off">
+                <!-- Honeypot -->
+                <div class="honeypot">
+                    <label>
+                        Website
+                        <input type="text" name="website" tabindex="-1" autocomplete="off">
+                    </label>
+                </div>
+
 
                 <div class="form-row">
 
@@ -907,7 +969,8 @@
                             id="name"
                             name="name"
                             placeholder="Your full name"
-                            required>
+                            required
+                        >
 
                     </div>
 
@@ -923,7 +986,8 @@
                             id="email"
                             name="email"
                             placeholder="you@example.com"
-                            required>
+                            required
+                        >
 
                     </div>
 
@@ -942,7 +1006,8 @@
                             type="tel"
                             id="phone"
                             name="phone"
-                            placeholder="+254...">
+                            placeholder="+254..."
+                        >
 
                     </div>
 
@@ -956,7 +1021,8 @@
                         <select
                             id="service"
                             name="service"
-                            required>
+                            required
+                        >
 
                             <option value="">
                                 Select a service
@@ -1014,27 +1080,27 @@
                     <select id="budget" name="budget">
 
                         <option value="">
-                            Prefer not to say
+                            Select if known
                         </option>
 
-                        <option value="Below KSh 25,000">
-                            Below KSh 25,000
+                        <option value="Below KSh 20,000">
+                            Below KSh 20,000
                         </option>
 
-                        <option value="KSh 25,000 - 50,000">
-                            KSh 25,000 - 50,000
+                        <option value="KSh 20,000 - 50,000">
+                            KSh 20,000 - 50,000
                         </option>
 
                         <option value="KSh 50,000 - 100,000">
                             KSh 50,000 - 100,000
                         </option>
 
-                        <option value="KSh 100,000 - 250,000">
-                            KSh 100,000 - 250,000
+                        <option value="KSh 100,000+">
+                            KSh 100,000+
                         </option>
 
-                        <option value="Above KSh 250,000">
-                            Above KSh 250,000
+                        <option value="Not sure yet">
+                            Not sure yet
                         </option>
 
                     </select>
@@ -1051,24 +1117,26 @@
                     <textarea
                         id="message"
                         name="message"
-                        rows="6"
-                        placeholder="Tell us about your project, requirements, goals and expected timeline..."
-                        required></textarea>
+                        rows="7"
+                        placeholder="Tell us about your project, what you need, and any important requirements..."
+                        required
+                    ></textarea>
 
                 </div>
 
 
-                <label class="consent-label">
+                <label class="consent">
 
                     <input
                         type="checkbox"
                         name="consent"
                         value="yes"
-                        required>
+                        required
+                    >
 
                     <span>
                         I agree that Soft Tech may use the information
-                        submitted through this form to respond to my inquiry.
+                        provided to respond to this enquiry.
                     </span>
 
                 </label>
@@ -1076,15 +1144,10 @@
 
                 <button
                     type="submit"
-                    class="btn btn-primary submit-button"
-                    id="submitButton">
-
-                    <span id="submitText">
-                        Send Project Inquiry
-                    </span>
-
-                    <span id="submitArrow">→</span>
-
+                    class="btn primary form-button"
+                >
+                    Send Enquiry
+                    <span>→</span>
                 </button>
 
 
@@ -1092,8 +1155,8 @@
                     id="formMessage"
                     class="form-message"
                     role="status"
-                    aria-live="polite">
-                </div>
+                    aria-live="polite"
+                ></div>
 
             </form>
 
@@ -1104,193 +1167,135 @@
 </section>
 
 
-<!-- =========================
-     TERMS
-========================= -->
+<!-- ================= TERMS ================= -->
 
 <section class="legal-section" id="terms">
 
-    <div class="container">
+    <div class="container legal-container">
 
-        <div class="legal-content">
-
-            <span class="eyebrow">LEGAL</span>
-
-            <h2>Terms & Conditions</h2>
-
-            <p>
-                By engaging Soft Tech for a service, the client agrees to
-                communicate project requirements clearly and provide
-                necessary information, materials and approvals required
-                for the work.
-            </p>
-
-            <h3>Services</h3>
-
-            <p>
-                Services are provided according to the agreed project
-                scope. Changes or additional requirements outside the
-                agreed scope may require additional time or charges.
-            </p>
-
-            <h3>Payments</h3>
-
-            <p>
-                Where applicable, project payments, deposits and milestones
-                will be agreed before work begins. Final delivery may be
-                subject to settlement of outstanding amounts.
-            </p>
-
-            <h3>Client Responsibilities</h3>
-
-            <p>
-                Clients are responsible for providing accurate information,
-                content, credentials and approvals where these are required
-                to complete a project.
-            </p>
-
-            <h3>Third-Party Services</h3>
-
-            <p>
-                Some projects may rely on third-party services such as
-                domain registrars, hosting providers, payment gateways,
-                APIs or software platforms. Their availability and terms
-                are controlled by the respective providers.
-            </p>
-
-            <h3>Intellectual Property</h3>
-
-            <p>
-                Ownership and licensing of project materials will depend
-                on the agreed scope, payment arrangements and any
-                third-party licences involved.
-            </p>
-
-            <h3>Changes</h3>
-
-            <p>
-                Soft Tech may update these terms when necessary. The latest
-                version published on this website will apply to future
-                engagements.
-            </p>
-
+        <div class="eyebrow">
+            <span></span>
+            TERMS & CONDITIONS
         </div>
+
+        <h2>
+            Terms of Service
+        </h2>
+
+        <p>
+            Soft Tech provides technology and digital services according
+            to the requirements agreed with the client. Project scope,
+            deliverables, timelines and fees should be confirmed before
+            substantial development begins.
+        </p>
+
+        <p>
+            Clients are responsible for providing accurate information,
+            required content, credentials and approvals necessary for the
+            project. Delays in providing required materials may affect
+            delivery timelines.
+        </p>
+
+        <p>
+            Third-party services, hosting providers, domains, software,
+            APIs and other external services may be subject to their own
+            terms, pricing and availability.
+        </p>
+
+        <p>
+            Intellectual property ownership and licensing arrangements
+            should be agreed as part of the relevant project.
+        </p>
+
+        <p>
+            Soft Tech reserves the right to update these terms when
+            necessary to reflect changes in services or business
+            operations.
+        </p>
 
     </div>
 
 </section>
 
 
-<!-- =========================
-     PRIVACY
-========================= -->
+<!-- ================= PRIVACY ================= -->
 
-<section class="legal-section privacy-section" id="privacy">
+<section class="legal-section" id="privacy">
 
-    <div class="container">
+    <div class="container legal-container">
 
-        <div class="legal-content">
-
-            <span class="eyebrow">LEGAL</span>
-
-            <h2>Privacy Policy</h2>
-
-            <p>
-                Soft Tech respects the privacy of people who contact or
-                interact with the website.
-            </p>
-
-            <h3>Information We Collect</h3>
-
-            <p>
-                When you submit an inquiry, information such as your name,
-                email address, phone number, service requirements and
-                project details may be collected.
-            </p>
-
-            <h3>How Information Is Used</h3>
-
-            <p>
-                Information submitted through the website is used primarily
-                to respond to enquiries, understand project requirements,
-                prepare quotations and provide requested services.
-            </p>
-
-            <h3>Information Security</h3>
-
-            <p>
-                Reasonable measures are taken to protect information
-                submitted through the website. However, no internet
-                transmission or electronic storage system can be guaranteed
-                to be completely secure.
-            </p>
-
-            <h3>Third Parties</h3>
-
-            <p>
-                Project delivery may involve third-party platforms or
-                service providers where necessary. Information shared with
-                such providers should be limited to what is required for
-                the relevant service.
-            </p>
-
-            <h3>Your Choices</h3>
-
-            <p>
-                If you have submitted an enquiry and want to ask about,
-                correct or remove information associated with that enquiry,
-                contact Soft Tech using the email address provided on this
-                website.
-            </p>
-
+        <div class="eyebrow">
+            <span></span>
+            PRIVACY
         </div>
+
+        <h2>
+            Privacy Policy
+        </h2>
+
+        <p>
+            Soft Tech may collect information submitted through the
+            website enquiry form, including name, email address, phone
+            number and project information.
+        </p>
+
+        <p>
+            This information is used primarily to respond to enquiries,
+            understand project requirements and communicate with clients
+            regarding requested services.
+        </p>
+
+        <p>
+            Information should not be submitted through the website where
+            it is not necessary for the requested service.
+        </p>
+
+        <p>
+            Reasonable measures are taken to protect information received
+            through the website. However, no internet transmission or
+            storage system can be guaranteed to be completely secure.
+        </p>
 
     </div>
 
 </section>
 
 
-<!-- =========================
-     COOKIES
-========================= -->
+<!-- ================= COOKIES ================= -->
 
-<section class="legal-section cookies-section" id="cookies">
+<section class="legal-section" id="cookies">
 
-    <div class="container">
+    <div class="container legal-container">
 
-        <div class="legal-content">
-
-            <span class="eyebrow">WEBSITE PREFERENCES</span>
-
-            <h2>Cookies & Browser Storage</h2>
-
-            <p>
-                Soft Tech uses essential browser storage to operate the
-                website and remember your cookie preferences.
-            </p>
-
-            <p>
-                The current website primarily uses browser storage to
-                remember whether you have accepted, rejected or customised
-                cookie preferences.
-            </p>
-
-            <p>
-                If non-essential analytics, advertising or tracking
-                technologies are added in the future, the site's consent
-                controls may be updated accordingly.
-            </p>
-
-            <button
-                class="text-button"
-                id="cookieSettingsButton"
-                type="button">
-
-                Manage Cookie Preferences →
-
-            </button>
-
+        <div class="eyebrow">
+            <span></span>
+            COOKIES
         </div>
+
+        <h2>
+            Cookie Preferences
+        </h2>
+
+        <p>
+            Soft Tech may use essential browser storage and similar
+            technologies to remember website preferences and improve
+            website functionality.
+        </p>
+
+        <p>
+            The current website does not require advertising cookies for
+            its basic operation. If analytics or other non-essential
+            tracking services are introduced, appropriate consent
+            controls may be implemented.
+        </p>
+
+        <button
+            type="button"
+            id="cookieSettingsButton"
+            class="text-button"
+        >
+            Manage Cookie Preferences
+        </button>
 
     </div>
 
@@ -1299,9 +1304,7 @@
 </main>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+<!-- ================= FOOTER ================= -->
 
 <footer class="site-footer">
 
@@ -1310,27 +1313,13 @@
         <div class="footer-brand">
 
             <a href="#home" class="logo footer-logo">
-
-                <span class="logo-mark">S</span>
-
-                <span>
-                    Soft<span>Tech</span>
-                </span>
-
+                <span>Soft</span> Tech
             </a>
 
             <p>
-                Professional technology and digital solutions designed
-                around real business needs.
+                Professional technology and digital solutions for
+                businesses, organisations and individuals.
             </p>
-
-            <a
-                href="mailto:owinojerim269@gmail.com"
-                class="footer-email">
-
-                owinojerim269@gmail.com
-
-            </a>
 
         </div>
 
@@ -1340,27 +1329,9 @@
             <h4>Company</h4>
 
             <a href="#about">About</a>
-
             <a href="#services">Services</a>
-
-            <a href="#process">Process</a>
-
-            <a href="#faq">FAQ</a>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h4>Services</h4>
-
-            <a href="#contact">Web Development</a>
-
-            <a href="#contact">Web Applications</a>
-
-            <a href="#contact">E-Commerce</a>
-
-            <a href="#contact">AI & Automation</a>
+            <a href="#process">How We Work</a>
+            <a href="#faq">FAQs</a>
 
         </div>
 
@@ -1370,79 +1341,76 @@
             <h4>Legal</h4>
 
             <a href="#terms">Terms & Conditions</a>
-
             <a href="#privacy">Privacy Policy</a>
-
-            <a href="#cookies">Cookie Policy</a>
-
-            <button
-                id="footerCookieSettings"
-                type="button">
-
-                Cookie Settings
-
-            </button>
+            <a href="#cookies">Cookies</a>
 
         </div>
 
-    </div>
 
+        <div class="footer-column">
 
-    <div class="footer-bottom">
+            <h4>Contact</h4>
 
-        <div class="container footer-bottom-inner">
+            <a href="mailto:owinojerim269@gmail.com">
+                Email Us
+            </a>
 
-            <p>
-                © <span id="currentYear"></span> Soft Tech.
-                All rights reserved.
-            </p>
+            <a
+                href="https://wa.me/254758943430"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                WhatsApp
+            </a>
 
-            <a href="#home">
-                Back to top ↑
+            <a href="#contact">
+                Send an Enquiry
             </a>
 
         </div>
 
     </div>
 
+
+    <div class="container footer-bottom">
+
+        <p>
+            © <span id="currentYear"></span> Soft Tech. All rights reserved.
+        </p>
+
+        <button
+            type="button"
+            id="footerCookieButton"
+            class="footer-cookie-button"
+        >
+            Cookie Settings
+        </button>
+
+    </div>
+
 </footer>
 
 
-<!-- =========================
-     WHATSAPP FLOAT BUTTON
-========================= -->
-
-<a
-    href="https://wa.me/254758943430"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="whatsapp-button"
-    aria-label="Contact Soft Tech on WhatsApp">
-
-    <span>◉</span>
-
-    <strong>WhatsApp</strong>
-
-</a>
-
-
-<!-- =========================
-     COOKIE BANNER
-========================= -->
+<!-- ================= COOKIE BANNER ================= -->
 
 <div
     class="cookie-banner"
-    id="cookieBanner">
+    id="cookieBanner"
+    role="dialog"
+    aria-label="Cookie preferences"
+>
 
     <div class="cookie-content">
 
         <div>
 
-            <strong>Cookie preferences</strong>
+            <strong>
+                We value your privacy
+            </strong>
 
             <p>
-                Soft Tech uses essential browser storage to operate the
-                website and remember your preferences.
+                This website uses essential browser storage to remember
+                preferences. You can accept, reject or manage preferences.
             </p>
 
         </div>
@@ -1452,29 +1420,26 @@
 
             <button
                 type="button"
-                class="cookie-reject"
-                id="rejectCookies">
-
+                id="rejectCookies"
+                class="cookie-btn secondary-cookie"
+            >
                 Reject
-
             </button>
 
             <button
                 type="button"
-                class="cookie-settings"
-                id="manageCookies">
-
+                id="manageCookies"
+                class="cookie-btn outline-cookie"
+            >
                 Settings
-
             </button>
 
             <button
                 type="button"
-                class="cookie-accept"
-                id="acceptCookies">
-
+                id="acceptCookies"
+                class="cookie-btn primary-cookie"
+            >
                 Accept
-
             </button>
 
         </div>
@@ -1484,92 +1449,63 @@
 </div>
 
 
-<!-- =========================
-     COOKIE MODAL
-========================= -->
+<!-- ================= COOKIE MODAL ================= -->
 
 <div
     class="cookie-modal"
     id="cookieModal"
-    aria-hidden="true">
+    aria-hidden="true"
+>
 
     <div class="cookie-modal-box">
 
         <button
+            type="button"
             class="cookie-close"
             id="closeCookieModal"
-            type="button"
-            aria-label="Close cookie settings">
-
+            aria-label="Close cookie settings"
+        >
             ×
-
         </button>
 
-        <span class="eyebrow">
+        <div class="eyebrow">
+            <span></span>
             COOKIE SETTINGS
-        </span>
+        </div>
 
         <h2>
             Manage your preferences
         </h2>
 
         <p>
-            Choose whether optional preference storage should be enabled.
+            Choose whether preference storage should be enabled on this
+            website.
         </p>
 
 
-        <div class="cookie-option">
+        <label class="preference-row">
 
-            <div>
-
-                <strong>Essential</strong>
-
-                <p>
-                    Required for basic website operation and preference
-                    storage.
-                </p>
-
-            </div>
-
-            <span class="always-on">
-                Always on
+            <span>
+                <strong>Preference storage</strong>
+                <small>
+                    Allows the website to remember your selected preferences.
+                </small>
             </span>
 
-        </div>
+            <input
+                type="checkbox"
+                id="preferenceCookies"
+            >
 
-
-        <div class="cookie-option">
-
-            <div>
-
-                <strong>Preference storage</strong>
-
-                <p>
-                    Allows the website to remember selected preferences.
-                </p>
-
-            </div>
-
-            <label class="toggle">
-
-                <input
-                    type="checkbox"
-                    id="preferenceCookies">
-
-                <span></span>
-
-            </label>
-
-        </div>
+        </label>
 
 
         <button
             type="button"
-            class="btn btn-primary cookie-save"
-            id="saveCookiePreferences">
-
+            id="saveCookiePreferences"
+            class="btn primary"
+        >
             Save Preferences
-
         </button>
 
     </div>
